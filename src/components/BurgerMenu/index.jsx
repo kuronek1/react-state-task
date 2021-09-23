@@ -13,12 +13,6 @@ class BurgerMenu extends React.Component {
             }))
             console.log(this.state.isShow);
         }
-        this.status = (value) => {
-            if(this.state.isShow === true){
-               return {value: 'menu-shown'}
-            }
-               return {value: 'menu-hidden'}
-            }
     }
 
 
